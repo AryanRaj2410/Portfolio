@@ -8,7 +8,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const timeout = setTimeout(() => setLoading(false), 2200);
+    const timeout = setTimeout(() => setLoading(false), 3500);
     return () => clearTimeout(timeout);
   }, []);
 
@@ -56,6 +56,8 @@ function App() {
   const name = "Aryan Raj Choudhury";
   const nameLength = name.length;
   const svgWidth = Math.max(320, nameLength * 15 + 100);
+  const rectHeight = 60;
+  const rectPerimeter = 2 * (svgWidth + rectHeight);
 
   return (
     <AnimatePresence mode="wait">
@@ -75,7 +77,19 @@ function App() {
             exit="exit"
           >
             <svg height="60" width={svgWidth} xmlns="http://www.w3.org/2000/svg">
-              <rect className="shape" height="60" width={svgWidth} />
+              <motion.rect
+  className="shape"
+  height={rectHeight}
+  width={svgWidth}
+  strokeDasharray={rectPerimeter}
+  strokeDashoffset={rectPerimeter}
+  animate={{ strokeDashoffset: 0 }}
+  transition={{
+    duration: 3.5,
+    ease: "easeInOut"
+  }}
+/>
+
             </svg>
             <motion.div
               variants={loadText}
@@ -94,7 +108,7 @@ function App() {
             initial={{ width: 0 }}
             animate={{ width: "100%" }}
             exit={{ width: "100%", opacity: 0, transition: { duration: 0.4 } }}
-            transition={{ duration: 2.2, ease: "easeInOut" }}
+            transition={{ duration: 3.2, ease: "easeInOut" }}
           />
         </motion.div>
       ) : (

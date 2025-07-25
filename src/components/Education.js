@@ -20,7 +20,7 @@ const educationData = {
 } ],
 	workExperience: [ {
   "duration" : "2 months",
-  "year" : "May 2025 - Jul 2025",
+  "year" : "May 2025 - Jun 2025",
   "description" : "Worked on network-level communication systems using low-level socket programming in C for defence-grade systems. Developed and tested client-server models to simulate secure data transmission protocols over UDP/TCP. Developed a simulator to generate and transmit real-time GPS position details over the network for testing communication modules.",
   "company" : "Defence Research and Development Laboratory",
   "location" : "Hyderabad, Telangana",
