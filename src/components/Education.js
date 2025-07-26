@@ -38,7 +38,19 @@ const educationData = {
   "title" : "Health Systems Development: Introduction to Health Systems",
   "institution" : "Coursera",
   "year" : "2025"
-} ]
+}, {
+	"title" : "Complete Java Programming Bootcamp",
+  "institution" : "Udemy",
+  "year" : "2025"
+}, {
+	"title" : "NumPy, Pandas, & Python for Data Analysis",
+  "institution" : "Udemy",
+  "year" : "2025"
+}, {
+	"title" : "Python for Data Science",
+  "institution" : "Udemy",
+  "year" : "2025"
+}]
 };
 
 const Education = () => {
