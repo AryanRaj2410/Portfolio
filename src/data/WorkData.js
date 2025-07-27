@@ -25,7 +25,7 @@ export const tabData = [ {
 },{
     "title" : "Netflix Clone",
     "description" : "◦Developed a visually accurate clone of Netflix's homepage using only HTML and CSS, replicating key UI elements such as the hero section, navbar, login button, and featured content layout to closely match the original design.\n◦Implemented responsive design principles with Flexbox and CSS Grid to ensure the layout adapts seamlessly across various screen sizes, providing a consistent user experience on desktops, tablets, and mobile devices.\n◦Focused on clean and structured code architecture, organizing HTML and CSS in a maintainable format with semantic tags, reusable classes, and modular styling for better readability and future scalability.",
-    "link" : "https://clonesite1.netlify.app/",
+    "link" : "https://github.com/AryanRaj2410/netflix-clone",
     "tech" : [ "CSS", "HTML","Vs Code" ]
   
 } ]
