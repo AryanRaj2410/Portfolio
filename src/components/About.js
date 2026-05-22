@@ -11,7 +11,7 @@ const About = ({
 	aboutParagraph3 = "I’m a fast learner, always curious about emerging technologies, and I actively keep myself updated with new tools, frameworks, and research in both the software and data domains. As I move forward in my career, I aspire to contribute to innovative, high-impact projects—whether it’s through developing scalable software systems or solving data-driven problems that create real value.",
 	aboutParagraph4 = "",
 	professionalStats = [ {
-  "number" : "8.54",
+  "number" : "8.62",
   "label" : "CGPA"
 }, {
   "number" : "10+",
